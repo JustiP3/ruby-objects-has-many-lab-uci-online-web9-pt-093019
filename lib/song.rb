@@ -4,8 +4,7 @@ attr_reader :artist
 
 def artist=(name)
 @artist = name
-name.songs << self
-name.class.song_count += 1
+name.add_song(self)
 end
 
 def initialize(title)
