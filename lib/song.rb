@@ -1,5 +1,6 @@
 class Song
-attr_accessor :title, :artist
+attr_accessor :title
+attr_reader :artist 
 
 def artist=(name)
 @artist = name
