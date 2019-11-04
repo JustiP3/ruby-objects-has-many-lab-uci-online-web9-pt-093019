@@ -1,5 +1,5 @@
 class Song
-attr_accessor :title
+attr_accessor :name 
 attr_reader :artist
 
 def artist=(name)
@@ -8,7 +8,7 @@ name.songs << self
 end
 
 def initialize(title)
-@title = title
+@name  = title
 end #end of method
 
 
